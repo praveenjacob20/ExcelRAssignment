@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Module4.Assig1"/>
+      <class name="Module4.Assig2"/>
+      <class name="Module3.Assig1"/>
+      <class name="selenium.module3.Assignment1"/>
+      <class name="Module3.Assig3"/>
+      <class name="Module3.assig2"/>
+      <class name="selenium.module3.Assignment2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

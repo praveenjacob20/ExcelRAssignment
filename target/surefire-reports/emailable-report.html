@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">4</td><td class="num">193,747</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Module3.Assig3</td><td><a href="#m0">TC3</a></td><td rowspan="1">1670773487672</td><td rowspan="1">6838</td></tr><tr class="failedodd"><td rowspan="3">selenium.module3.Assignment2</td><td><a href="#m1">Login</a></td><td rowspan="3">1670773584263</td><td rowspan="3">15</td></tr><tr class="failedodd"><td><a href="#m2">Login</a></td></tr><tr class="failedodd"><td><a href="#m3">Login</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Module3.Assig1</td><td><a href="#m4">Login</a></td><td rowspan="1">1670773460262</td><td rowspan="1">2904</td></tr><tr class="passedodd"><td rowspan="3">Module3.Assig3</td><td><a href="#m5">TC1</a></td><td rowspan="1">1670773478393</td><td rowspan="1">9092</td></tr><tr class="passedodd"><td><a href="#m6">TC2</a></td><td rowspan="1">1670773487485</td><td rowspan="1">186</td></tr><tr class="passedodd"><td><a href="#m7">TC4</a></td><td rowspan="1">1670773494519</td><td rowspan="1">196</td></tr><tr class="passedeven"><td rowspan="1">Module3.assig2</td><td><a href="#m8">Login</a></td><td rowspan="1">1670773567605</td><td rowspan="1">8497</td></tr><tr class="passedodd"><td rowspan="1">Module4.Assig1</td><td><a href="#m9">Login</a></td><td rowspan="1">1670773419893</td><td rowspan="1">10335</td></tr><tr class="passedeven"><td rowspan="1">Module4.Assig2</td><td><a href="#m10">TestCase1</a></td><td rowspan="1">1670773434414</td><td rowspan="1">19971</td></tr><tr class="passedodd"><td rowspan="1">selenium.module3.Assignment1</td><td><a href="#m11">Login</a></td><td rowspan="1">1670773475286</td><td rowspan="1">2938</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Module3.Assig3#TC3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (729, 726). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; width=&quot;970&quot; height=&quot;100&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot; data-google-container-id=&quot;1&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.99)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;PMJ&apos;, ip: &apos;192.168.166.141&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [524abcd2850d351ef4bffe8a6249eced, clickElement {id=b5cec259-fdfe-4aaa-9541-5be1aee1be77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\prave\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56308/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (524abcd2850d351ef4bffe8a6249eced)] -&gt; id: submit]
+Session ID: 524abcd2850d351ef4bffe8a6249eced
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at Module3.Assig3.TC3(Assig3.java:39)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">selenium.module3.Assignment2#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.ClassCastException: class java.lang.String cannot be cast to class [Ljava.lang.CharSequence; (java.lang.String and [Ljava.lang.CharSequence; are in module java.base of loader &apos;bootstrap&apos;)
+	at selenium.module3.Assignment2.Login(Assignment2.java:27)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">selenium.module3.Assignment2#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>null</td><td>null</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:94)
+	at selenium.module3.Assignment2.Login(Assignment2.java:27)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">selenium.module3.Assignment2#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>null</td><td>null</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:94)
+	at selenium.module3.Assignment2.Login(Assignment2.java:27)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Module3.Assig1#Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Module3.Assig3#TC1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Module3.Assig3#TC2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Module3.Assig3#TC4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Module3.assig2#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Module4.Assig1#Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Module4.Assig2#TestCase1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">selenium.module3.Assignment1#Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
